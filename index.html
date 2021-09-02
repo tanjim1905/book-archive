@@ -18,7 +18,8 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
-      * {
+      body {
+        background-color: aliceblue;
         font-family: "Poppins", sans-serif;
       }
 
@@ -39,7 +40,7 @@
       <section class="container mt-3">
         <h1 class="text-center text-success">Search Your Favorite Books</h1>
         <!-- Input Box -->
-        <div class="input-group mb-3 w-50 mx-auto">
+        <div class="input-group mt-4 mb-3 w-50 mx-auto">
           <input
             type="text"
             id="search-input"
@@ -64,8 +65,14 @@
       <!-- Book Container -->
       <section class="container mt-2">
         <!-- Books -->
-        <div id="book-container" class="row"></div>
+        <div id="book-container" class="row gy-4"></div>
       </section>
+
+
+
+
+
+      
     </main>
 
     <script src="main.js"></script>
